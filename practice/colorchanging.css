@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  .colorButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  #colorBlue:checked ~ #colorChangeDiv {
+    background-color: blue;
+  }
+  
+  #colorGreen:checked ~ #colorChangeDiv {
+    background-color: green;
+  }
+  
+  #colorRed:checked ~ #colorChangeDiv {
+    background-color: red;
+  }
+  
+  #colorYellow:checked ~ #colorChangeDiv {
+    background-color: yellow;
+  }
+  
+  #colorChangeDiv {
+    width: 200px;
+    height: 200px;
+    transition: background-color 0.3s ease-in-out;
+    background-color: purple;
+  }

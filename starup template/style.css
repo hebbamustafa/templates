@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* navbar */
+.navbar{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    background-color: white;
+    letter-spacing: 4px;
+    font-size: 1rem;
+    position: relative;
+    width: full;
+    box-shadow: 0 3px 0px 0 rgba(0, 0, 0, 0.028), 0 4px 0px 0 rgba(0, 0, 0, 0.006);
+}
+.nav-li{
+    list-style: none;
+    padding: 16px;
+}
+.nav-II{
+    display: flex;
+    letter-spacing: 1px;
+}
+.fa-solid{
+    padding-right: 2px;
+}
+/* end of navbar */
+
+
+
+/* hero page */
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 91.2vh;
+    width: 85.4;
+    background-image: url("laptop.jpg");
+}
+.hero-content{
+    font-family: "Poppins";
+    color: black;
+    letter-spacing: 2px;
+    padding-left: 2rem;
+    padding-top: 8rem;
+}
+.hero-content h1{
+    font-family: "Raleway";
+    background-color: #00000034;
+    color: white;
+    width: 80%;
+    padding-left: 2rem;
+    font-size: 3.4rem;
+    margin-left: 2rem;
+}
+.hero-content p{
+    background-color: #00000034;
+    width: 80%;
+    padding-left: 2rem;
+    margin-top: 5rem;
+    color: white;
+    margin-left: 2rem;
+}
+.hero-content button{
+    text-transform: capitalize;
+    border: none;
+    padding: 0.8rem;
+    font-size: 16px;
+    background-color: #909090;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.hero-content button:hover{
+    background-color: #b0b0b0;
+}
+.fa-brands{
+    font-size: 20px;
+    margin-top: 9rem;
+    color: #909090;
+}
+.fa-brands:hover{
+    opacity: 0.5;
+}
+/* end of hero page */
+
+
+
+
+/* about section */
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about h3{
+    margin-top: 10rem;
+    font-size: 1.7rem;
+    font-family: "Raleway";
+}
+.about h6{
+    margin-top: 2rem;
+    font-family: "Montserrat";
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+.about-cards{
+    display: flex;
+}
+.fa-about-icons{
+    font-size: 5rem;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    margin: 3rem;
+    margin-left: 8rem;
+}
+.about h4{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.about p{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+/* end of about section */
+
+
+
+
+/* design */
+.design{
+    display: flex;
+    background-color: #efeeee;
+}
+.design button{
+    text-transform: capitalize;
+    border: none;
+    color: white;
+    padding: 0.6rem 0.8rem;
+    font-size: 16px;
+    background-color: #000000;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.design button:hover{
+    background-color: #b0b0b0;
+}
+.design h2{
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-left: 2rem;
+    margin-top: 9rem;
+}
+.design p{
+    font-size: 0.9rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 10rem;
+    line-height: 1.7rem;
+}
+.design .image{
+    height: 21rem;
+    border-radius: 0.8rem;
+    margin-top: 9rem;
+    margin-right: 2rem;
+    margin-bottom: 7rem;
+}
+/* end of design */
+
+
+
+/* the team */
+.team-head{
+    padding-top: 9rem;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.team p{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 17px;
+}
+.team-cards{
+    display: flex;
+}
+.team-cards img{
+    width: 20rem;
+}
+.team-members

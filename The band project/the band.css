@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Hind Guntur" , sans-serif;
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+}
+
+.halfnav{
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    height: 45px;
+    width: 100%;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #000;
+}
+
+
+.home{
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 4px;
+    padding-left: 13px;
+    padding-right: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.home:hover{
+    background-color: #c4c3c3;
+    color: #000;
+ }
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    width: 110px;
+    cursor: context-menu;
+}
+
+.dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.dropdown-content li:hover {
+    color: black;
+    background-color: #d2d1d1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fffcfc;
+} 
+
+.otherhalf > .searchicon{
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding-top: 6px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.otherhalf{
+    padding-right: 20px;
+}
+.searchicon:hover{
+    background-color: #F44336;
+    color: #000;
+}
+
+#cross{
+    cursor: pointer;
+    display: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.searchexit{
+    display: flex;
+}
+
+.searchbar{
+    transition: 0.5s;
+    display: none;
+    margin-top: 7px;
+    border-radius: 25px;
+    width: 40vh;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-top: 7px;
+    height: 30px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    color: black;
+}
+
+.mySlides{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .visible{
+    display: block;
+}
+
+.hidden{
+    display: none;
+} */
+
+.pic1{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 33%; 
+}
+
+.imageheading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     color: rgb(0, 0, 0);
+}
+.info > h1{
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+.info > p{
+    text-align: center;   
+    margin-top: 1%;
+}
+
+.abtband{
+    line-height: 20px;
+    margin-top: 1.5%;
+    font-size: 17px;
+    max-width: 58%;
+    margin-left: 23%;
+    color: black;
+}
+
+.bandpic{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.bpic{
+    width: 60%;
+    height: 55%;
+    border-radius: 7px;
+    margin-bottom: 40%;
+}
+
+.member{
+    margin-left: 22%;
+}
+
+.tourhead{
+    letter-spacing: 4px;
+    padding-top: 5%;
+    font-size: 35px;
+}
+
+.tickets{
+    padding-bottom: 3%;
+    font-style: italic;
+    color: #838383;
+    font-weight: bold;
+}
+
+.tourdate{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    text-align: left;
+    width: 53%;
+    background-color: white;
+    color: black;
+
+}
+
+li{
+    padding: 7px;
+}
+
+.sold{
+    background-color: #F44336;
+    color:white;
+    font-size: 16px;
+    padding: 1px 10px;
+    margin-left: 20px;
+}
+
+.buytickets{
+    display: flex;
+    justify-content: center;
+}
+
+.place1{
+    text-align: left;
+    background-color: white;
+    color: #000;
+    width: 17%;
+    height: 13%;
+    margin: 0.5%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.buyinfo{
+    line-height: 17px;
+}
+
+.buybtn{
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.buybtn:hover{
+    background-color: #c4c3c3;
+    color: #000;
+    font-weight: bold;
+}
+
+.ticketinfo{
+    padding-left: 10px
+}
+
+/* ticketform */
+
+.ticket{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.ticketform{
+    display: none;
+    position: absolute;
+    top: 230%;
+    left: 20%;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+.xmark{
+    background-color: rgb(43, 176, 147);
+    text-align: right;
+}
+
+.fa-xmark{
+    margin-right: 15px;
+    margin-top: 12px;
+}
+
+.tformhead{
+    background-color: rgb(43, 176, 147);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.ticketform > input{
+    width: 97%;
+    height: 40px;
+    margin: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.pp{
+    margin: 10px;
+    color: #000;
+    text-align: left;
+}
+
+.pay{
+    background-color: rgb(43, 176, 147);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    width: 97%;
+    height: 40px;
+    margin: 10px;
+}
+
+.pay:hover{
+    background-color: #fbd0f8;
+    color: #000;
+}
+
+.tfooter{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.help{
+    color: #000;
+    margin-bottom: 40px;
+    margin-right: 25px;
+}
+
+.help > a{
+    color: rgb(43, 176, 147);
+    text-decoration: underline;
+}
+
+.close{
+    height: 40px;
+    margin-bottom: 40px;
+    background-color: #F44336;
+    color: white;
+    border: none;
+    margin: 10px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.close:hover{
+    background-color: #c4c3c3;
+    color: #000;
+}
+
+.contactpage{
+    color: #000;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 9%;
+    padding-top: 7%;
+}
+
+.contactform{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formhead{
+    margin-top: 5%;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.formnote{
+    margin-top: 0.5%;
+    margin-bottom: 3%;
+}
+
+.contact{
+    text-align: left;
+}
+
+.contact{
+    margin-left: 17%;
+}
+
+input{
+    margin: 3px;
+    font-size: 14px;
+    padding: 3px;
+    width: 15vw;
+}
+
+.message{
+    margin-top: 5px;
+    width: 30.7vw;
+}
+
+.form{
+    margin-right: 15%;
+}
+
+.formbtn{
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-left: 81%;
+    padding: 2px 20px 0px 20px;
+    margin-top: 1%;
+}
+
+.footer{
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+}
+
+.img{
+    filter: grayscale(50%);
+    padding-bottom: 0;
+    background-color: #ffffff;
+}
+
+.footer-tags{
+    cursor: pointer;
+    margin-top: 4%;
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 1%;
+}
+
+.footer-tags:hover{
+    opacity: 70%;
+}
+
+.footer > p{
+    color: #666666;
+    margin-bottom: 5%;
+}
+
+.footer > p > a{
+    color: #666666;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}

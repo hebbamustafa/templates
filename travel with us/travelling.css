@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway" sans-serif;
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
+
+body{
+    background-image: url(https://www.w3schools.com/w3images/london2.jpg);
+}
+
+.buttons{
+    display: none;
+}
+
+.information{
+    width: 100%;
+     display: flex;
+    justify-content: center; 
+}
+
+.data{ 
+    width: 60%;
+    background-color: white;
+    display: flex;
+    margin-top: 13%;
+    flex-direction: column;
+}
+
+/* flight */
+
+.head{
+    padding: px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.flightdata{
+    font-family: "raleway";
+    margin-left: 17px;
+}
+
+.flightinput{
+    font-size: 20px;
+    width: 48%;
+    padding: 8px;
+}
+
+.flightinfo{
+    /* display: none; */
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+.flightform{
+    display: none;
+}
+
+.headbtn{
+    padding: 7px;
+    padding-right: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.headbtn:hover{
+    background-color: #a3a3a3;
+    color: black;
+}
+
+.logo{
+    padding-top: 5px;
+    height: 50px;
+    font-family: "raleway";
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+}
+
+.logo:hover{
+    background-color: red;
+    color:white;
+    margin: 0;
+    padding: 10;
+    width: 150px;
+}
+
+.search:hover{
+    background-color: red;
+    color:white;
+    margin: 0;
+    padding: 10;
+}
+
+
+.search{
+    font-size: 25px;
+    color: #666;
+}
+
+.mainbtn{
+    background-color: black;
+    width: 100%;
+}
+
+.fa-solid{
+    margin: 10px 22px;
+    font-size: 22px;
+}
+
+.travel{
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.tofrom{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.to{
+    margin-left: 43%;
+}
+
+.searchbtn{
+    background-color: #666;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 0;
+    border: none;
+}
+
+.searchbtn:hover{
+    background-color: #a3a3a3;
+    color: black;
+}
+
+/* hotel */
+.hotelinfo{
+    display: none;
+    width: 100%;
+    font-family: "raleway";
+    margin-left: 17px;
+}
+
+
+.hotelhead{
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.hoteldata{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.buttonhotels{
+    background-color: #666;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 0;
+    border: none;
+}
+
+.buttonhotels:hover{
+    background-color: #a3a3a3;
+    color: black;
+}
+
+/* rental */
+.rentalinfo{
+    display: none; 
+    width: 100%;
+    font-family: "raleway";
+    margin-left: 17px;
+}
+
+.rentalhead{
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.rentaldata{
+    margin-top:23px;
+}
+
+.discount{
+    background-color: orangered;
+    color: white;
+    padding: 3px 15px;
+}
+
+.rentalinput{
+    width: 60%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.rentalsearch{
+    background-color: #666;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 0;
+    border: none;
+}
+
+.rentalsearch:hover{
+    background-color: #a3a3a3;
+    color: black;
+}
+
+/* For small screens */
+
+@media screen and (max-width: 800px) {
+    body{
+        background-image: url(https://www.w3schools.com/w3images/london2.jpg);
+    }
+    .data{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 18%; */
+    }
+    .travel{
+        font-size: 28px;
+    }
+    .tofrom{
+        display: block;
+    }
+    .to{
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    .from{
+        margin-bottom: 7px;
+    }
+    .flightinput{
+        display: block;
+        margin-bottom: 5px;
+        width: 97%;
+        height: 35px;
+        font-size: 18px;
+    }
+    .fform{
+        display: none;
+    }
+    .flightform{
+        display: block;
+        margin: 0;
+    }
+    .searchbtn{
+        font-size: 17px;
+    }
+    
+}
+@media screen and (max-width: 470px) {
+    /* flight */
+    .mainbtn{
+        display: none;
+    }
+    .buttons{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+        border: none;
+    }
+    .data{
+        width: 90%;
+        margin-right: 5%;
+    }
+    .travel{
+        font-size: 20px;
+    }
+    .searchbtn{
+        font-size: 15px;
+    }
+    .flightinput{
+        width: 95%;
+        height: 30px;
+        font-size: 15px;
+    }
+    /* hotel */
+    .hotelhead{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .hoteldata{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .buttonhotels{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .rentalhead{
+        font-size: 20px;
+    }
+    .rentaldata{
+        font-size: 15px;
+    }
+    .discount{
+        padding: 2px;
+        font-size: 13px;
+    }
+    .rentalinput{
+        width: 90%;
+        height: 10%;
+        font-size: 14px;
+    }
+    .rentalsearch{
+        font-size: 15px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .fa-location-dot{
+        font-size: 20px;
+        margin: 10px 9px 5px 10px;
+    }
+}

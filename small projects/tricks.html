@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trick</title>
+    <link rel="stylesheet" href="tricks.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/616de63735.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- image tricks -->
+    <div class="image-tricks">
+        <div class="pager">
+            <img src="https://paradepets.com/.image/t_share/MTkxMzY1Nzg4NjczMzIwNTQ2/cutest-dog-breeds-jpg.jpg" alt="">
+            <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg" alt="">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/best-guard-dogs-1650302456.jpeg" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Northern_Inuit_Dog.jpg" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_5ElLfEoTtQIyOm38WiEMesfB6mUaP8Dl6g&usqp=CAU" alt="">
+        </div>
+    </div>
+    <!-- end of image tricks -->
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- loader control -->
+    <div class="loader">
+        <div class="wrapper">
+            <label for="rangeInput">
+                Your Ability
+            </label>
+            <output
+            id="amount"
+            name="amount"
+            for="rangeInput">
+                0
+            </output>
+            <input 
+            type="range"
+            id="rangeInput"
+            name="rangeInput"
+            min="0"
+            max="100"
+            value="0"
+            oninput="amount.value=rangeInput.value + '/100' "
+            >
+        </div>
+    </div>
+    <!-- end of loader control -->
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- sign up control -->
+    <div class="signup">
+        <div class="textbox">
+            <input
+            required
+            spellcheck="false"
+            type="text"
+            placeholder="First name"
+            >
+            <span class="icon">
+                <i class="fa-regular fa-circle-user"></i>
+            </span>
+            <div class="validation">
+                * Fist name is required
+            </div>
+        </div>
+    </div>
+    <!-- end of sign up control -->
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- modal1 -->
+    <div class="modal1">
+        <button onclick="toggleModal()" type="button">
+            Open modal
+        </button>
+        <div 
+            class="modal-background"
+            onclick="toggleModal()"
+        >
+        </div>
+        <div class="modal">
+            <h3>Modal Window</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis error aspernatur nostrum,Lorem ipsum dolor, sit amet consectetur adipisicing. </p>
+        </div>
+    </div>
+    <!-- end of modal1 -->
+
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <!-- parallax -->
+    <div class="parallax">
+        <section class="image"></section>
+        <section class="text">
+            <h2>CSS Parallax</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, iusto facilis at dolor ratione quia voluptatibus est doloremque natus nihil similique ab odio placeat rerum, doloribus, consectetur illo sint voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit omnis sed amet, saepe inventore soluta obcaecati itaque cumque quaerat?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel totam quisquam voluptas. Suscipit magni fugiat est neque illo dolore, cum nostrum magnam corrupti repellat praesentium, soluta veniam nulla explicabo odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit omnis sed amet, saepe inventore soluta obcaecati itaque cumque quaerat?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque distinctio itaque ipsum delectus iste laudantium nostrum ea ullam laborum maxime molestias recusandae, sequi facere. Aperiam repellat incidunt ab fuga consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit omnis sed amet, saepe inventore soluta obcaecati itaque cumque quaerat?</p>
+        </section>
+        <section class="image"></section>
+        <section class="text">
+            <h2>Nice Right?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, iusto facilis at dolor ratione quia voluptatibus est doloremque natus nihil similique ab odio placeat rerum, doloribus, consectetur illo sint voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit omnis sed amet, saepe inventore soluta obcaecati itaque cumque quaerat?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel totam quisquam voluptas. Suscipit magni fugiat est neque illo dolore, cum nostrum magnam corrupti repellat praesentium, soluta veniam nulla explicabo odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit omnis sed amet, saepe inventore soluta obcaecati itaque cumque quaerat?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque distinctio itaque ipsum delectus iste laudantium nostrum ea ullam laborum maxime molestias recusandae, sequi facere. Aperiam repellat incidunt ab fuga consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit omnis sed amet, saepe inventore soluta obcaecati itaque cumque quaerat?</p>
+        </section>
+        <section class="image"></section>
+        <section class="text">
+            <h2>Nice Right?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, iusto facilis at dolor ratione quia voluptatibus est doloremque natus nihil similique ab odio placeat rerum, doloribus, consectetur illo sint voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit omnis sed amet, saepe inventore soluta obcaecati itaque cumque quaerat?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel totam quisquam voluptas. Suscipit magni fugiat est neque illo dolore, cum nostrum magnam corrupti repellat praesentium, soluta veniam nulla explicabo odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit omnis sed amet, saepe inventore soluta obcaecati itaque cumque quaerat?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque distinctio itaque ipsum delectus iste laudantium nostrum ea ullam laborum maxime molestias recusandae, sequi facere. Aperiam repellat incidunt ab fuga consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit omnis sed amet, saepe inventore soluta obcaecati itaque cumque quaerat?</p>
+        </section>
+    </div>
+
+
+    <script>
+        const toggleModal = () => {
+            const{ classList } = document.body;
+            if(classList.contains("open")){
+                classList.remove("open");
+                classList.add("closed");
+            } else{
+                classList.remove("closed");
+                classList.add("open");
+            }
+        };
+    </script>
+
+  
+</body>
+</html>

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2, p{
+    position: relative;
+    margin: 10px 15%;
+}section{
+    padding: 40px 0;
+}
+.image{
+    height: 25rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(pic.jpg);
+}
+.text{
+    background-color: white;
+    position: relative;
+}
+.text::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 25rem;
+    background-color: white;
+    translate: -50% -50%;
+}
+
+
+
+
+
+
+
+/* Today, I'm excited to show you how to create a parallax effect using just HTML and CSS.    
+
+
+First, we have the boilerplate code and a reference to the external CSS file (styles.css) that we'll use to style the page.
+
+Inside the <body> tag, we have a <div> with the class "parallax".
+
+Within this div, we have two sections with classes "image" and "text" alternating. In that text section we are going to create an h2 and a p tag. In that p tag we will write lorem 100 and copy that tag two times.
+
+Now we are going to copy these two sections two more times inside the same div for our parallax.
+
+And for the css First
+
+we are going to use the universal selector. and set margin: 0; and padding: 0; box-sizing: border-box;
+
+we will select h2, p: We set position: relative; and margin: 10px and 15%
+
+in section We set padding: 40px 0;
+
+.image: Here, we set height: 25rem;
+
+background-image with the url(picture.jpeg); it points to the image file "picture.jpeg."
+
+background-size: cover;
+
+background-position: center;
+
+and lastly background-attachment: fixed;
+
+now we will choose .text Here, we set background-color: white; and the position relative.
+
+.text::before: This targets the pseudo-element of elements with the class "text." The pseudo-element is used to create the white overlay effect.
+
+we are going to leave the content empty This property is required for the pseudo-element. It adds content to the pseudo-element, even if it's empty.
+
+we will set position: absolute;
+
+top: 50%; left: 50%; and background-color white. Along with the translate to -50% -50%.
+
+And there you have it! By alternating 'image' and 'text' sections within the div and using some CSS magic, we achieve this stunning parallax effect. It's a simple technique that can take your web design to the next level */

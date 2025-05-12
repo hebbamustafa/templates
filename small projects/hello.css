@@ -1,0 +1,34 @@
+.image-tricks{
+    display: grid;
+    place-items: center;
+}
+
+img{
+    cursor: pointer;
+}
+
+.pager{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pager img{
+    flex: 0 0 42px;
+    height: 400px;
+    width: 10px;
+    padding: 3px;
+    transition: 0.9s;
+}
+
+img{
+    height: 30px;
+    width: 100%;
+    border-radius: 50px;
+    transition: 0.9s;
+}
+
+.pager img:hover{
+    flex: 0 0 430px;
+}

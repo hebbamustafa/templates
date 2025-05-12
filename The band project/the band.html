@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <link rel="stylesheet" href="the band.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/616de63735.js" crossorigin="anonymous"></script>
+    <script src="the band.js"></script>
+</head>
+<body>
+    <div class="information">
+
+        <!-- navbar -->
+        <div class="nav">
+            <div class="half">
+                <ul class="halfnav">
+                    <li class="home"><a href="#mySlides"> Home</a></li>
+                    <li class="home"><a href="#about"> Band</a></li>
+                    <li class="home"><a href="#tour"> Tour</a></li>
+                    <li class="home"><a href="#contact"> Contact</a></li>
+                    <div class="dropdown">
+                        <li class="home more">More <i class="fa-solid fa-caret-down"></i></li>
+                        <ul class="dropdown-content">
+                            <li>Merchandise</li>
+                            <li>Extras</li>
+                            <li>Media</li> 
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+            <div class="otherhalf">
+                <p class="searchexit">
+                    <input class="searchbar" id="search"  type="text" placeholder="Sear ch here">
+                    <i class="fa-solid fa-xmark cross" id="cross" onclick="cross()"></i>
+                </p>
+                <button class="searchicon" id="icon" onclick="search()"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+
+        <!-- pictures -->
+        <div class="mySlides" id="mySlides">
+            <img src="https://www.w3schools.com/w3images/la.jpg" style="width:100%">
+          </div>
+          <!-- <div class="mySlides">
+            <img src="https://www.w3schools.com/w3images/ny.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <img src="https://www.w3schools.com/w3images/chicago.jpg" style="width:100%">
+          </div> -->
+        
+
+        <!-- about the band  -->
+        <div class="aboutband" id="about">
+            <div class="info">
+                <h1>One direction</h1>
+                <p><i> We love music </i></p>
+                <small class="abtband">We have created a 1D band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small>
+            </div>
+            <div class="bandpic">
+                    <div class="bpictures">
+                      <p class="member">Name</p>
+                      <img class="bpic" src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Random Name">
+                    </div>
+                    <div class="bpictures">
+                      <p class="member">Name</p>
+                      <img class="bpic" src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Random Name">
+                    </div>
+                    <div class="bpictures">
+                      <p class="member">Name</p>
+                      <img class="bpic" src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Random Name">
+                    </div>
+            </div>
+        </div>
+
+        <!-- tour date  -->
+        <div class="tourdate" id="tour">
+            <h1 class="tourhead">Tour Dates</h1>
+            <p class="tickets">Remember to book your tickets!</p>
+            <div class="data">
+            <ul>
+                <li>September <span class="sold">Sold out</span></li>
+                <hr>
+                <li>October <span class="sold">Sold out</span></li>
+                <hr>
+                <li>November</li>
+            </ul>
+            </div>
+
+            <div class="buytickets" id="buytickets">
+
+                <div class="place1">
+                    <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="#">
+                    <div class="ticketinfo">
+                        <p><b>New York</b></p>
+                        <p>Fri 27 june 2023</p>
+                        <p class="buyinfo"><b>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</b></p>
+                        <button class="buybtn" onclick="buyticket()">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="place1">
+                    <img src="https://www.w3schools.com/w3images/paris.jpg" alt="#">
+                    <div class="ticketinfo">
+                        <p><b>Paris</b></p>
+                        <p>Fri 27 june 2023</p>
+                        <p class="buyinfo"><b>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</b></p>
+                        <button class="buybtn" onclick="buyticket()">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="place1">
+                    <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="#">
+                    <div class="ticketinfo">
+                        <p><b>San Francisco</b></p>
+                        <p>Fri 27 june 2023</p>
+                        <p class="buyinfo"><b>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</b></p>
+                        <button class="buybtn" onclick="buyticket()">Buy Tickets</button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- ticket form -->
+
+         <div class="ticket" id="ticket">
+            <div class="ticketform" id="ticketf">
+                <p class="xmark" onclick="exit()"><i class="fa-solid fa-xmark"></i></p>
+                <h1 class="tformhead"><i class="fa-solid fa-suitcase"></i> Tickets</h1>
+
+                <p class="pp"><i class="fa-solid fa-cart-shopping"></i> Tickets, $15 per person</p>
+                <input type="text" placeholder="How many?">
+                <p class="pp"><i class="fa-solid fa-user"></i>Send To</p>
+                <input type="text" placeholder="Enter email">
+                <button class="pay">PAY <i class="fa-solid fa-check"></i></button>
+
+                <div class="tfooter">
+                    <button class="close" onclick="exit()">Close <i class="fa-sharp fa-solid fa-circle-xmark"></i></button>
+                    <p class="help">Need <a href="#">help?</a></p>
+                </div>
+        </div> 
+        </div>
+
+         
+
+         <!-- contact form -->
+        <div class="contactpage" id="contact">
+            <h2 class="formhead">Contact</h2>
+            <p class="formnote">Fan? Drop a note!</p>
+            <div class="contactform">
+                <div class="contact">
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Chicago, US</p>
+                    <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                    <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <br>
+                    <input class="message" type="text" placeholder="Message">
+                    <br>
+                    <button class="formbtn">Send</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="img">
+            <img class="footerimg" src="https://www.w3schools.com/w3images/map.jpg" alt="">
+        </div>
+        
+        <!-- footer -->
+        <div class="footer">
+            <i class="fa-brands fa-square-facebook footer-tags"></i>
+            <i class="fa-brands fa-instagram footer-tags"></i>
+            <i class="fa-brands fa-snapchat footer-tags"></i>
+            <i class="fa-brands fa-pinterest-p footer-tags"></i>
+            <i class="fa-brands fa-twitter footer-tags"></i>
+            <i class="fa-brands fa-linkedin-in footer-tags"></i>
+            <p>Powered by <a href="#">w3.css</a></p>
+        </div>
+    </div> 
+
+
+
+    </div>
+</body>
+</html>

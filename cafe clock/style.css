@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 90%;
+    /* background-color: white; */
+}
+
+.menu{
+    background-color: white;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+h1{
+    color: white;
+    padding: 15px;
+    background-color: black;
+}
+
+#starter{
+    padding-top: 0;
+    width: 10%;
+}
+
+#btn{
+    color: #ffffff;
+    background-color: black;
+     
+}
+
+#cross1{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+    background-color: black;
+}
+
+
+
+p{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+

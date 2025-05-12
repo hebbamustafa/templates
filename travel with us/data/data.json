@@ -1,0 +1,146 @@
+{
+    "products":[
+        {
+            "id": "seams",
+            "title": "Seams",
+            "mini_desc": "Seams is an ERP back-office solution for equity brokerage companies with integrated custody, settlement, Human Resource, Payroll and GL system.",
+            "description": "Seams is an ERP back-office solution for equity brokerage companies with integrated custody, settlement, Human Resource, Payroll and GL system.",
+            "main_Image" : "https://microlinks.com.pk/assets/images/products_imgs/2.png",
+            "feature_Image": "",
+            "features": [
+                "Custody",
+                "Settlement",
+                "Human Resource",
+                "Payroll",
+                "GL System"
+            ],
+            "logo": "/assets/images/my-logo.png"
+        },
+        {
+            "id": "Tradelinks",
+            "title": "Tradelinks",
+            "mini_desc": "An online trading platform developed for clients to trade in PSX over the internet from anywhere in the world.",
+            "description": "An online trading platform developed for clients to trade in PSX over the internet from anywhere in the world. Users can view live market rates, place orders, view trading positions, trading limits and reports related to their account.",
+            "main_Image" : "https://microlinks.com.pk/assets/images/products_imgs/3.png",
+            "feature_Image": "",
+            "features": [
+                "User Convenience",
+                "User Management",
+                "User Preference",
+                "Software Security"
+            ],
+            "logo": "/assets/images/my-logo.png"
+        },
+        {
+            "id": "Pharm Suite",
+            "title": "Pharm Suite",
+            "mini_desc": "Microlinks is offering a fully integrated software solution that eases off complications in managing sales, inventory, finance, and manufacturing.",
+            "description": "Microlinks is offering a fully integrated software solution that eases off complications in managing sales, inventory, finance, and manufacturing. It is focused on giving process management solutions to the pharmaceutical industries and enables them to quickly streamline and scale up their operations to reduce costs. It is a modern enterprise resource planning system with rich pharmaceutic-specific functionality to address management issues to boost productivity and improve customer’s experience. This pre-configured software has incorporated best practices and can be reengineered for personalization.",
+            "main_Image" : "https://microlinks.com.pk/assets/images/products_imgs/1.png",
+            "feature_Image": "",
+            "features": [
+                "Custody",
+                "Settlement",
+                "Human Resource",
+                "Payroll",
+                "GL System"
+            ],
+            "logo": "/assets/images/my-logo.png"
+        },
+        {
+            "id": "lms",
+            "title": "Learning Management System (LMS)",
+            "mini_desc": "Learning Management System (LMS) is an e-learning software solution which opens the virtual door to a superior quality of education.",
+            "description": "Learning Management System (LMS) is an e-learning software solution which opens the virtual door to a superior quality of education. It acts as a platform for educational resources to be uploaded and made accessible for remote learners. It creates, manages, and delivers educational content and ensures collaborative learning with course-on-the-go for finest experience. Moreover, it permits third party software integration like zoom for live online classes.",
+            "main_Image" : "https://microlinks.com.pk/assets/images/products_imgs/4.png ",
+            "feature_Image": "",
+            "features": [
+                "Homework and Attachments",
+                "Live Class Rooms",
+                "Manage Branches",
+                "Student Admission and Registrations",
+                "Student Details",
+                "Parents Info and Management",
+                "Course Management with Academics",
+                "Exam Master",
+                "Library management",
+                "Events",
+                "Bulk emails",
+                "Reports"
+            ],
+            "logo": "/assets/images/my-logo.png"
+        },
+        {
+            "id": "edu-samrt",
+            "title": "Edu-Smart",
+            "mini_desc": "Edu-Smart is a user-friendly ERP system for school which aims at easing administrative hassles and has the capability to streamline various tasks.",
+            "description": "Edu-Smart is a user-friendly ERP system for school which aims at easing administrative hassles and has the capability to streamline various tasks. It facilitates all required operations such as Enrollment, Admission, Student Management, Attendance, Class-scheduling, Accounts and Finance, Web Data Portal, SMS, multi-user functionality and etc. It is entirely feasible and contains all components to assist the management department to run an institute effectively.",
+            "main_Image" : "https://microlinks.com.pk/assets/images/products_imgs/5.png",
+            "feature_Image": "",
+            "features": [
+                "Digitalization of data which reduces chances of er",
+                "Saves paper consumption in preparing for reports and records.",
+                "Data encryption which ensures security and backup.",
+                "User friendly interface",
+                "Comptent to store and export reports in Excel/PDF formats",
+                "Multi user functionality which allows safe access across all departments",
+                "Supports customization of report cards with robust filters"
+            ],
+            "logo": "/assets/images/my-logo.png"
+        },
+        {
+            "id": "AML-CFT",
+            "title": "AMLCFT",
+            "mini_desc": "AML / CFT Solution is a program that incorporates features with a user-friendly interface to prevent fraud with due diligence.",
+            "description": "AML / CFT Solution is a program that incorporates features with a user-friendly interface to prevent fraud with due diligence. It streamlines the financial system through the prevention of criminal operations and makes investigations of suspicious activities easier. The program enforces legal requirements by getting clients’ profiles from the database right after the identification of people or assets in the onboarding process. This helps to create an analysis of the transaction by defining control scenarios. It then notifies the company through real-time notifications either by email or pop-up notifications.",
+            "main_Image" : "https://microlinks.com.pk/assets/images/AML%20CFT.png",
+            "logo": "/assets/images/my-logo.png"
+        },
+        {
+            "id": "HR",
+            "title": "HUMAN RESOURCE MANAGEMENT SYSTEM",
+            "mini_desc": "Human Resource Management System is a software suite that manages internal HR functions. The software is a unique blend of a feature-rich program with a user-friendly interface.",
+            "description": "Human Resource Management System is a software suite that manages internal HR functions. The software is a unique blend of a feature-rich program with a user-friendly interface. It oversees employee data, payroll, recruitment, benefits, training, and attendance management. Our HR solution is designed at the core to meet both corporate and regional needs",
+            "main_Image" : "https://microlinks.com.pk/assets/images/HRMS.png",
+            "logo": "/assets/images/my-logo.png"
+        },
+        {
+            "id": "DOCUMENT LIBRARY.",
+            "title": "DOCUMENT LIBRARY.",
+            "mini_desc": "DOCUMENT LIBRARY (scan and upload documents online) is a secured and customized web application program",
+            "description": "DOCUMENT LIBRARY (scan and upload documents online) is a secured and customized web application program connected with MidSea Database that enables firms, and brokerage companies the feasibility to store, access, and upload documents online in real-time through any device using their login credentials.",
+            "main_Image" : "https://microlinks.com.pk/assets/images/DOCUMENT.png",
+            "logo": "/assets/images/my-logo.png"
+        },
+        {
+            "id": "nactascreening",
+            "title": "NACTA SCREENING",
+            "mini_desc": "It is a program that gathers data from NACTA to assist a firm to review the criminal and personal records of over a thousand of candidates at a single click.",
+            "description": "It is a program that gathers data from NACTA to assist a firm to review the criminal and personal records of over a thousand of candidates at a single click.",
+            "main_Image" : "https://microlinks.com.pk/assets/images/NACTA.png",
+            "logo": "/assets/images/my-logo.png"
+        },
+        {
+            "id": "posand accounting software",
+            "title": "POS & ACCOUNTING SOFTWARE.",
+            "mini_desc": "IA retail management solution equipped with advanced features to cater to all your retail business needs.",
+            "description": "IA retail management solution equipped with advanced features to cater to all your retail business needs. Microlinks offers a dedicated point-of-sale solution designed to be extremely flexible to meet precise business needs. Our Point-of-Sales can facilitate:.",
+            "main_Image" : "https://microlinks.com.pk/assets/images/pos%20and%20accounting.png ",
+            "features": [
+                "Reports",
+                "Inventory Management",
+                "Multiple Currencies",
+                "User-friendly Interface",
+                "Sales Management",
+                "Purchase Management",
+                "Vendors and Client Management",
+                "Payment Gateway Integration",
+                "Multiple sales modes",
+                "Manage Multi-outlet chain",
+                "Receipt & Invoice Management",
+                "Accounts Management"
+            ],
+            "logo": "/assets/images/my-logo.png"
+        }
+    ]
+}

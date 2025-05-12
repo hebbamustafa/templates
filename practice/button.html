@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="button.css">
+  <title>Button Layout</title>
+</head>
+<body>
+  <div class="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+    <img src="/img/beams.jpg" alt="" class="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" width="1308">
+    <div class="absolute inset-0 bg" id="grid-mask"></div>
+    <div class="max-w-screen-xl mx-12 z-10">
+      <div class="flex flex-wrap gap-5">
+        <button class="button-style">button one</button>
+        <button class="button-style">button two</button>
+        <button class="button-style-inverse">button Three</button>
+        <button class="button-style-inverse-hover">button Three</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

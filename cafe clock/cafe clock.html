@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cafe clock.css">
+    <script src="cafe clock.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:wght@900&display=swap">
+</head>
+<body>
+
+    <div id="information">
+    <div id="clock">
+        <p id="clocktime"></p>
+    </div>
+
+
+    <div id="cafe">
+        <button id="menubtn" onclick="menu()">menu</button>
+        <br>
+        <button id="contactbtn" onclick="contact()">contact</button>
+    </div>
+    <div id="data">
+       
+        <p id="time">Monday-Friday 10-23 | Saturday 14-02</p>
+        <p id="place">42 Village St. New York</p>
+        <p id="last">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+    </div>
+
+</div>
+        <!-- menu -->
+
+        <div id="menu">
+            <div id="btn2">
+       
+                <h4 id="cross1" ><button class="menuexit" onclick="menuexit()">x</button></h4>
+            <h1 id="starter">
+                Starters
+            </h1>
+        </div>
+        
+            <p>Tomato Soup <b>$2.50</b></p>
+            <p>Chicken Salad <b>$3.50</b></p>
+            <p>Bread and Butter <b>$1.00</b></p>
+    
+            <h1>
+                Main Courses
+            </h1>
+            <p>Grilled Fish and Potatoes <b>$8.50</b></p>
+            <p>Italian Pizza <b>$5.50</b></p>
+            <p>Veggie Pasta <b>$4.00</b></p>
+            <p>Chicken and Potatoes <b>$6.50</b></p>
+            <p>Deluxe Burger <b>$5.00</b></p>
+    
+            <h1>
+                Desserts
+            </h1>
+            <p>Fruit Salad <b>$2.50</b></p>
+            <p>Ice cream <b>$2.00</b></p>
+            <p>Chocolate Cake <b>$4.00</b></p>
+            <p>Cheese <b>$5.50</b></p>
+    
+        </div> 
+
+        <!-- contact form -->
+
+        <div id="form" class="bla" style="width: 50%;">
+            <div id="exit">
+                <h4 id="cross2"><button class="contexit" onclick="contactexit()">x</button></h4>
+                <h1 id="heading">Contact</h1>
+            </div>
+            <div class="form-items">
+                <p id="booking">Reserve a table, ask for today's special or just send us a message:</p>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <br>
+                <input type="number" id="people" name="people" placeholder="How many people">
+                <br>
+                <input type="datetime-local" id="date" name="date" placeholder="Date and Time" value="2020-11-16T20:00">
+                <br>
+                <input type="text" id="message" name="message" placeholder="Message\ Special requirements">
+                <br>
+                <button id="btn" type="submit">SEND MESSAGE</button>
+            </div>
+        
+        </div>
+        
+    
+</body>
+</html>

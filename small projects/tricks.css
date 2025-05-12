@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* image tricks */
+
+.image-tricks{
+    display: grid;
+    place-items: center;
+}
+
+img{
+    cursor: pointer;
+}
+
+.pager{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pager img{
+    flex: 0 0 42px;
+    height: 400px;
+    width: 10px;
+    padding: 3px;
+    transition: 0.9s;
+}
+
+img{
+    height: 30px;
+    width: 100%;
+    border-radius: 50px;
+    transition: 0.9s;
+}
+
+.pager img:hover{
+    flex: 0 0 430px;
+}
+
+/* end of image tricks */
+
+
+loader control
+ 
+.loader{
+    margin: 0;
+    display: grid;
+    place-items: center;
+    font-family: "Poppins";
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 12px;
+}
+
+.wrapper > label, .wrapper > output{
+    font-size: 13px;
+}
+
+/* .wrapper > output{
+    text-align: left;
+} */
+
+.wrapper > input, .wrapper >
+ input::-webkit-slider-thumb{
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.wrapper > input{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 180px;
+    height: 6px;
+    border-radius: 3px;
+    background: #2b2b32;
+    outline: none;
+    cursor: pointer;
+}
+
+.wrapper > input::-webkit-slider-thumb{
+    width: 16px;
+    height: 16px;
+    rotate: 45deg;
+    border-radius: 4px;
+    background: #8f44fd;
+    transition: 0.3s;
+}
+
+.wrapper > input::-webkit-slider-thumb:hover{
+    rotate: 0deg;
+    scale: 1.2 0.9;
+} */
+
+/* end of loader control */
+
+
+/* sign up control */
+
+ .signup{
+    display: flex;
+    justify-content: center;
+}
+
+.textbox{
+    position: relative;
+}
+
+.textbox > input{
+    width: 260px;
+    height: 50px;
+    border-radius: 7px;
+    background: transparent;
+    border: 1px solid #549040;
+    padding: 0 20px 0 56px;
+    font-size: 16px;
+    font-family: "Poppins";
+    outline: none;
+}
+
+.textbox > input::placeholder{
+    color: rgb(255, 255, 255 / 50%);
+}
+
+.textbox > input:valid{
+    border-color: #26dfae;
+}
+
+.textbox > .icon{
+    position: absolute;
+    top: 25%;
+    left: 40px;
+    font-size: 20px;
+    margin: -16px;
+    pointer-events: none;
+}
+
+.validation{
+    position: relative;
+    margin-top: 6px;
+    left: 0;
+    font-size: 14px;
+    width: 260px;
+    height: 55px;
+    padding: 15px;
+    border: 2px solid #ce0000;
+    border-radius: 7px;
+    background: #d72525;
+    color: #ffffff;
+    transform-origin: 50% 0%;
+    transition: 0.4s;
+}
+
+.textbox > input:valid ~ .validation{
+    transform: scaleY(0);
+} 
+
+/* modal 1 */
+
+.modal1{
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: #37353b;
+    font-family: "Poppins";
+}
+
+.modal1 button{
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 36px;
+    background-color: #1a1a1a;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+@keyframes background-in{
+    0% { scale: 0 0.005; }
+    33% { scale: 1 0.005; }
+    66%, 100% { scale: 1 1; }
+}
+
+@keyframes modal-in{
+    0%, 66%{
+        opacity: 0;
+        visibility: hidden;
+        translate: -50% -30%;
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.modal-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: scale(1, 1);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+body.open .modal-background{
+    opacity: 1;
+    visibility: visible;
+    animation: background-in 1s both;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 300px;
+    padding: 48px 40px;
+    border-radius: 12px;
+    background: #37353b;
+    color: #f9f9f9;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+body.open .modal{
+    opacity: 1;
+    visibility: visible;
+    animation: modal-in 1s;
+}
+
+body.closed .modal{
+    opacity: 0;
+    visibility: hidden;
+    translate: -50% -50%;
+}
+
+/* parallax */
+
+.parallax p, h2{
+    position: relative;
+    /* z-index: 1; */
+    margin: 10px 15%;
+}
+
+.parallax section{
+    padding: 40px 0;
+}
+
+.image{
+    height: 30rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(pic.jpg);
+}
+
+.text{
+    background: #ffffff;
+    position: relative;
+}
+
+.text::before{
+    content: "";
+    /* display: block; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 25rem;
+    background: #ffffff;
+    translate: -50% -50%;
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+#heading{
+    color: white;
+    padding: 15px;
+    padding-top: 0;
+    text-align: left;
+}
+
+#exit{
+    color: #ffffff;
+    background-color: black;
+    text-align: right;
+    height: 70px;
+}
+
+#cross{
+    margin-right: 11px;
+    top: 18px;
+}
+
+#booking{
+    padding: 13px;
+}
+
+input{
+    width: 65%;
+    height: 50px;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 14px;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 11px;
+    background-color: #ffffff;
+    border: none;
+}
+
+button:hover{
+    background-color: #CCCCCC;
+}

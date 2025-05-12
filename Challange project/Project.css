@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto" , sans-serif;
+}
+
+body{
+    background-color: #F1F1F1;
+}
+
+.information{
+    display: flex;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+}
+
+/* portpholio */
+.myportpholio{
+    background-color: white;
+    width: 37.5%;
+    margin-top: 1%;
+    margin-left: 4.3%;
+    box-shadow: 0 4px 8px 0 #00000041, 0 6px 20px 0 #00000041;
+    height: 100%;
+}
+
+.picture{
+    position: relative;
+}
+
+.image{
+    width: 100%;
+    margin-bottom: 1%;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.image:hover{
+    opacity: 100%;
+}
+
+.name{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    letter-spacing: 1px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.fa-solid{
+    color: #009688;
+    margin-left: 14px;
+    margin-right: 14px;
+    font-size: 15px;
+}
+
+.fa-solid:hover{
+    color: #797979;
+}
+
+.me{
+    margin-top: 14px;
+    margin-bottom: 17px;
+    font-size: 14px;
+    color: #696262;
+}
+
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: #e9e3e3;
+    margin: 17px;
+    margin-top: 20px;
+}
+
+.skillhead{
+    margin: 17px;
+    color: #474747;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.fa-asterisk{
+    margin-left: 1px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.skillname{
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #696262;
+}
+
+.skill{
+    width: 90%;
+    background-color: #e9e8e8;
+    border-radius: 12px;
+    margin-left: 4%;
+    color: white;
+    font-size: 13px;
+}
+
+.skill1{
+    text-align: center;
+    background-color: #009688;
+    border-radius: 12px;
+    width: 90%;
+}
+
+.skill2{
+    text-align: center;
+    background-color: #009688;
+    border-radius: 12px;
+    width: 80%;
+}
+
+.skill3{
+    text-align: center;
+    background-color: #009688;
+    border-radius: 12px;
+    width: 75%;
+}
+
+.skill4{
+    text-align: center;
+    background-color: #009688;
+    border-radius: 12px;
+    width: 50%;
+}
+
+.lhead{
+    margin-top: 29px;
+    font-size: 17px;
+    color: #565656;
+}
+
+.lang{
+    margin: 18px;
+    font-size: 15px;
+    color: #565656;
+    font-weight: bold;
+}
+
+.language{
+    width: 90%;
+    background-color: #e9e8e8;
+    border-radius: 12px;
+    margin-left: 4%;
+}
+
+.language1{
+    height: 22px;
+    background-color: #009688;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.language2{
+    height: 22px;
+    background-color: #009688;
+    border-radius: 12px;
+    width: 55%;
+}
+
+.language3{
+    height: 22px;
+    background-color: #009688;
+    border-radius: 12px;
+    width: 25%;
+}
+
+/*  */
+.work{
+    margin-left: 1.5%;
+    margin-top: 1.6%;
+    width: 92%; 
+    box-shadow: 0 4px 8px 0 #00000041, 0 6px 20px 0 #00000041;
+    background-color: white;
+    height: 100%;
+}
+
+.workhead{
+    font-size: 160%;
+    letter-spacing: 1px;
+    color: #696868;
+    margin-top: 3.3%;
+    margin-bottom: 5%;
+}
+
+.fa-suitcase{
+    font-size: 120%;
+    margin-left: 2.5%;
+}
+
+.frontend{
+    margin-top: 5%;
+    margin-left: 3.5%;
+    font-weight: bolder;
+    color: #535252;
+}
+
+.date{
+    color: #048174;
+    margin: 1.7%;
+    font-size: 90%;;
+}
+
+.current{
+    background-color: #009688;
+    color: #ffffff;
+    font-size: 100%;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: none;
+    border-radius: 4px;
+}
+
+.frontdata{
+    margin: 3.5%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    font-size: 85%;
+    font-weight: bold;
+    line-height: 140%;
+    text-shadow: none;
+}
+
+.line2{
+    width: 90%;
+    height: 1px;
+    margin-top: 0;
+    margin-left: 4.5%;
+    background-color: #e9e3e3;
+}
+
+.web{
+    margin-top: 3.5%;
+    margin-left: 3.5%;
+    font-weight: bolder;
+    color: #535252;
+}
+
+.data{
+    margin-bottom: 4%;
+}
+
+/* education */
+
+.education{
+    background-color: #ffffff;
+    width: 92%;
+    margin-left: 1.5%;
+    margin-top: 1.6%;
+    box-shadow: 0 4px 8px 0 #00000041, 0 6px 20px 0 #00000041;
+    height: 100%;
+}
+
+.educationhead{
+    font-size: 160%;
+    letter-spacing: 1px;
+    color: #696868;
+    margin-top: 3.5%;
+}
+
+.fa-certificate{
+    font-size: 120%;
+    margin-left: 2.5%;
+}
+
+.w3school{
+    margin-top: 4%;
+    margin-left: 3.6%;
+    font-weight: bolder;
+    color: #535252;
+}
+
+.footer{
+    text-align: center;
+    background-color: #009688;
+    color: #ffffff;
+    margin-top: 1%; 
+}
+
+.footer > p{
+    padding: 1%;
+    font-size: 90%;
+}
+
+.fa-brands{
+    font-size: 80%;
+}
+
+.fa-brands:hover{
+    opacity: 64%;
+}
+
+.aa{
+    color: #ffffff;
+}
+
+.aa:hover{
+    color: #000000;
+}
+
+
+@media screen and ( max-width:1000px){
+    .name{
+        top: 67%;
+        font-size: 115%;
+    }
+}
+
+@media screen and ( max-width:800px){
+    .information{
+        display: flex;
+    }
+    
+    .second{
+        display: flex;
+        flex-direction: column;
+    }
+    .myportpholio{
+        width: 96%;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+    .work{
+        width: 96%;
+        margin-top: 4%;
+    }
+    .education{
+        width: 96%;
+    }
+    .name{
+        top: 67%
+    }
+    .workhead{
+        margin: 5%;
+        margin-top: 7%;
+    }
+    .all{
+        margin: 6%;
+    }
+    .web{
+        margin-top: 8%;
+    }
+    .educationhead{
+        margin: 4%;
+    }
+    .footer{
+        padding-bottom: 3%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .information{
+        display: block;
+    }
+    
+    .second{
+        display: block;
+    }
+    .myportpholio{
+        width: 92%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    .name{
+        top: 80%;
+        font-size: 200%;
+    }
+    .work{
+        width: 92%;
+        margin-top: 4%;
+        margin-left: 3%;
+    }
+    .workhead{
+        padding-top: 6%;
+        margin-left: 2%;
+    }
+    .frontend{
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+    .web{
+        margin: 6%;
+    }
+    .all{
+        margin: 4%;
+        margin-left: 8%;
+        margin-right: 8%;
+        line-height: 130%;
+    }
+    .education{
+        width: 92%;
+        margin-top: 4%;
+        margin-left: 3%;
+    }
+    .educationhead{
+        padding-top: 6%;
+        margin-left: 2%;
+    }
+    .hello{
+        margin: 3%;
+    }
+    .footer{
+        padding-bottom: 2%;
+    }
+    .bye{
+        padding-bottom: 7%;
+    }
+}

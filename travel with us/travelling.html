@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkTmYfkGb8ta0IBX4QXxRzVd11dNUy-ohLOg&usqp=CAU">
+    <title>i wanna be yours</title>
+    <link rel="stylesheet" href="travelling.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/616de63735.js" crossorigin="anonymous"></script>
+    <script src="travelling.js"></script>
+</head>
+<body>
+    <div class="head">
+        <a href="#" class="logo"><i class="fa-solid fa-location-dot"></i>Logo</a>
+        <a href="#" class="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+    </div>
+
+    <!-- Flight -->
+<div class="information">
+
+<div class="data">
+    <div class="mainbtn">
+        <button class="headbtn" class="flightbtn" onclick='flight()'><i class="fa-solid fa-plane btn" ></i>Flight</button>
+        <button class="headbtn" class="hotelbtn" onclick="hotel()"><i class="fa-solid fa-bed btn"></i>Hotel</button>
+        <button class="headbtn" class="rentalbtn" onclick="rental()"><i class="fa-solid fa-car-rear btn"></i>Rental</button>
+    </div>
+    <div class="buttons">
+        <button class="headbtn" class="flightbtn" onclick='flight()'><i class="fa-solid fa-plane" ></i></button>
+        <button class="headbtn" class="hotelbtn" onclick="hotel()"><i class="fa-solid fa-bed"></i></button>
+        <button class="headbtn" class="rentalbtn" onclick="rental()"><i class="fa-solid fa-car-rear"></i></button>
+    </div>
+    <div class="flightinfo" id="flight">
+
+        <div class="flightdata">
+            <h1 class="travel">Travel the world with us</h1>
+            <div class="fform">
+                <div class="tofrom">
+                <p>From</p>
+                <p class="to">To</p>
+            </div>
+            <input class="flightinput" type="text" placeholder="Departing from">
+            <input class="flightinput" type="text" placeholder="Arriving at">
+            <button class="searchbtn"><a href="https://flytrippers.com/find-cheapest-dates-destination/" target="_blank">Search and find dates</a></button>
+            </div>
+            <br>
+        <div class="flightform">
+            <p class="from">From</p>
+            <input class="flightinput" type="text" placeholder="Departing from">
+            <p class="to">To</p>
+            <input class="flightinput" type="text" placeholder="Arriving at">
+            <button class="searchbtn"><a href="https://flytrippers.com/find-cheapest-dates-destination/" target="_blank">Search and find dates</a></button>
+            <br>
+            <br>
+            <br>
+        </div>
+        </div>
+
+    </div>
+
+
+    <!-- hotel -->
+<div class="hotelinfo" id="hotel">
+   
+    <h1 class="hotelhead">Find the best hotels</h1>
+    <p class="hoteldata">Book a hotel with us and get the best fares and promotions.</p>
+    <p class="hoteldata">We know hotels - we know comfort.</p>
+    <button class="buttonhotels"><a href="https://www.expedia.com/Destinations-In-United-States-Of-America.d201.Hotel-Destinations" target="_blank">Search hotels</a></button>
+    <br>
+    <br>
+    <br>
+</div>
+
+<!-- rental -->
+<div class="rentalinfo" id="rental">
+    <h1 class="rentalhead">Best car rental in the world!</h1>
+    <p class="rentaldata">
+        <span class="discount">DISCOUNT!</span>
+        Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs
+    </p>
+    <input class="rentalinput" type="text" placeholder="Pick-up point">
+    <br>
+    <button class="rentalsearch"><a href="https://www.rentalcars.com/" target="_blank"> Search Availability</a></button>
+    <br>
+    <br>
+    <br>
+</div>
+
+</div>
+</div>
+    
+</body>
+</html>
